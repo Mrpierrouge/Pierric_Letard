@@ -1,0 +1,23 @@
+#bandeau{
+    z-index: 3;
+	display: flex;
+	background-color: #588386;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right:3%;
+	padding-left:3%;
+	margin-top: 50px;
+	color: black;
+	justify-content: space-between;
+	align-content: center;
+	position: sticky;
+	bottom: 0px;
+}
+#bandeau p{
+	flex-direction: wrap;
+	display: flex;
+	background-color: #588386;
+	color: black;
+	justify-content: space-between;
+	align-content: center;
+}

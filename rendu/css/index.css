@@ -1,0 +1,31 @@
+@import url(_navbar.css);
+@import url(_zone.css);
+@import url(_anim.css);
+@import url(_boutons.css);
+@import url(_bandeau.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	background-color: #e1ebE1;
+	font-family: sans-serif;
+	margin: 0px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h1 {
+	color: white;
+	font-size: 45px;
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        padding-bottom:10px;
+    }
+}

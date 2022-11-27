@@ -1,0 +1,42 @@
+.bouton{
+    padding-right: 10px;
+    padding-left: 10px;
+	border-radius: 6px;
+	font-size: 30px;
+	color: white;
+	background-color: #588386;
+	font-family: sans-serif;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    justify-self: center;
+}
+.bouton:hover{
+    background-color: white;
+    color:#588386
+}
+.bouton-linkedin{
+    background-color: #0e76a8;
+}
+.bouton-linkedin:hover{
+    color: #0e76a8;
+}
+.bouton-IIM{
+    background-color: coral;
+}
+.bouton-IIM:hover{
+    color: coral;
+}
+@media screen and (max-width: 768px) {
+    .bouton{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 436px) {
+    .bouton{
+        font-size: 15px;
+    }
+}
